@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.num1{
+    padding: 5px 0;
+    width: 250px;
+}
+.num2{
+    padding: 5px 0;
+    width: 250px;
+}
+.calcu-koshu{
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    margin: 0 15px 15px 0;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    ;
+    
+}
+.calcu-kemitu{
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #ADFF2F;
+    
+    
+}
+.calcu-koboytu{
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    margin: 15px 0 0 0;
+    background-color: #8FBC8B;
+
+}
+.calcu-boly{
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    background-color:#FF6347;
+    
+}
+button{
+    border: none;
+    border-radius: 5px;
+
+}
+button:hover{
+    cursor: pointer;
+    font-weight: 600px;
+}
+.text{
+    border: 2px solid blue;
+    margin-left:20px;
+    width: 130px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+.calculator-2{
+    display: flex;
+    /* border: 2px solid;
+    width: 350px; */
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.874);
+    width: 350px;
+    height: 300px;
+    padding: 40px 0;
+    border-radius: 5px ;
+    background-color: teal;
+    margin-left: 500px;
+}
+.cal{
+    color: red;
+    text-align: center;
+    margin-top: 150px;
+}
